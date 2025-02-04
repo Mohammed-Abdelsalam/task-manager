@@ -1,112 +1,135 @@
-# Task Manager Application
+# Task Manager
 
-A modern task management application built with React, TypeScript, and Vite, featuring drag-and-drop functionality, charts, and real-time updates.
+> A modern task management application built using **React**, **TypeScript**, and **Vite**.
 
-## 🚀 Features
+![image](https://github.com/user-attachments/assets/51ad450c-452f-48cd-b415-f9187da8da2b)
 
-- Task creation, editing, and deletion
-- Drag-and-drop task management
-- Real-time statistics and charts
-- User authentication and authorization
-- Responsive design
-- Toast notifications
 
-## 🛠️ Tech Stack
+## Live Project
 
-### Core Technologies
+Check out the live application:  
+[Live Demo](https://task-manager-macber.vercel.app/)
 
-- React 18.3
-- TypeScript 5.6
-- Vite 6.0
+For a walkthrough of the project, view the video:  
+[Video Walkthrough](https://1drv.ms/v/c/d201396f77841c83/ERlJsCph1qNGpP2rqJ0fpg0B2lAlWi8rvgOT9ThR_fRzog?e=lYopBA)
 
-### Key Libraries
+### Estimated Time for Completion: 5 hours
 
-- **State Management**: Redux Toolkit
-- **UI Components**:
-  - React DnD (Drag and Drop)
-  - Chart.js & React-Chartjs-2
-  - FontAwesome Icons
-- **Form Handling**: React Hook Form
-- **Routing**: React Router
-- **API Client**: Axios
-- **Notifications**: React Hot Toast
-- **Styling**: TailwindCSS
+## Tech Stack
 
-## 📦 Installation
+- **React 18.3**
+- **TypeScript 5.6**
+- **Vite 6.0**
+- **TailwindCSS 4.0**
+- **Redux Toolkit**
+- **Font Awesome Icons**
+- **React Hook Form**
+- **React DnD (Drag and Drop)**
+- **Chart.js & React-Chartjs-2**
+- **React Hot Toast**
+- **Axios**
+- **React Router**
+
+## Features
+
+- **Full CRUD functionality** for managing tasks with Redux
+- **Search tasks** from the API with memoization
+- **Form validation** for task creation and editing
+- **Toast notifications** for user feedback
+- **Drag-and-drop** task management
+- **Local storage** integration
+- Responsive **task cards** with an adaptive design
+- **Real-time statistics** and charts
+- **Theme switching** (Light/Dark mode)
+- Use of **CSS Variables** for consistent theming
+- Fully **responsive design** for all screen sizes
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (LTS version recommended)
+- **npm** or **yarn** package manager
+
+### Installation
 
 1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   cd task-manager
+   ```
 
-```bash
-git clone [repository-url]
-cd task-manager
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-2. Create `.env` file in the root directory:
+### Development
 
-```env
-VITE_API_URL=your_api_url
-VITE_AUTH_SECRET=your_auth_secret
-VITE_ENV=development
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start development server:
+To start the development server:
 
 ```bash
 npm run dev
 ```
 
-## 🔧 Environment Variables
+The app will be available at [http://localhost:5173](http://localhost:5173)
 
-| Variable         | Description                          | Required |
-| ---------------- | ------------------------------------ | -------- |
-| VITE_API_URL     | Backend API URL                      | Yes      |
-| VITE_AUTH_SECRET | Authentication secret key            | Yes      |
-| VITE_ENV         | Environment (development/production) | Yes      |
+### Building for Production
 
-## 📚 Available Scripts
+To build the application for production:
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+```bash
+npm run build
+```
 
-## 🏗️ Project Structure
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
 
 ```
 task-manager/
 ├── src/
-│   ├── components/    # Reusable components
+│   ├── components/   # Reusable UI components
 │   ├── pages/        # Page components
 │   ├── store/        # Redux store setup
-│   ├── services/     # API services
 │   ├── hooks/        # Custom hooks
-│   ├── types/        # TypeScript types
-├── public/           # Static assets
-└── .env             # Environment variables
+│   ├── App.tsx       # Root component
+│   └── main.tsx      # Entry point
+├── public            # Static assets
+├── tailwind.config.js
+└── vite.config.ts    # Vite configuration
 ```
 
-## 🔒 Security Best Practices
+## Available Scripts
 
-- Environment variables for sensitive data
-- Authentication token management
-- API request interceptors
-- Input validation and sanitization
-- Secure routing guards
+- **`npm run dev`**: Starts the development server
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
+2. Create your feature branch:  
+   `git checkout -b feature/AmazingFeature`
+3. Commit your changes:  
+   `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch:  
+   `git push origin feature/AmazingFeature`
 5. Open a pull request
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+### Contact
+
+**Mohamed Abdlesalam** @ Macber
+
+- **Phone**: +201150733085
+- **Email**: [mohamedabdelsalamcsai@gmail.com](mailto:mohamedabdelsalamcsai@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/mo-abdelslalam-frontend](https://www.linkedin.com/in/mo-abdelslalam-frontend)
+- **Portfolio**: [https://moabdelsalam.netlify.app/](https://moabdelsalam.netlify.app/)
