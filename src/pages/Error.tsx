@@ -2,6 +2,7 @@ import { faCircleExclamation, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FC } from "react";
 import { useNavigate } from "react-router";
+import Button from "../components/Button";
 
 const Error: FC = () => {
   const navigate = useNavigate();
@@ -23,13 +24,13 @@ const Error: FC = () => {
           The page you are looking for does not exist.
         </p>
 
-        <button
+        <Button
           onClick={() => navigate("/")}
           className="bg-nord-10 hover:bg-nord-9 text-white px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 inline-flex items-center animate__animated animate__fadeIn animate__delay-3s"
         >
           <FontAwesomeIcon icon={faHome} className="mr-2" />
           <span>Return Home</span>
-        </button>
+        </Button>
       </div>
     </div>
   );

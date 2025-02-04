@@ -27,11 +27,7 @@ const DeleteConfirmationModal: FC<DeleteConfirmationModalProps> = ({
         <Button onClick={onClose} variant="secondary">
           Cancel
         </Button>
-        <Button
-          onClick={onConfirm}
-          className="px-4 py-2 rounded-lg bg-nord-11 text-white
-                     hover:bg-nord-11/90 transition-colors font-medium"
-        >
+        <Button onClick={onConfirm} variant="danger">
           Delete
         </Button>
       </div>
