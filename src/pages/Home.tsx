@@ -17,7 +17,7 @@ const Home = () => {
   const handleCloseForm = useCallback(() => setIsFormOpen(false), []);
 
   return (
-    <div className="container mx-auto px-4 py-12 h-[calc(100dvh-80px)] flex items-center flex-col justify-center">
+    <div className="container mx-auto px-4 py-12 min-h-[calc(100dvh-80px)] flex items-center flex-col justify-center">
       {/* Animated Logo Icon */}
       <div
         className="inline-flex p-3 sm:p-4 rounded-full mb-5
