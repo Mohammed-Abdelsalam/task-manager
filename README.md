@@ -127,7 +127,7 @@ This project is licensed under the **MIT License**.
 
 ### Contact
 
-**Mohamed Abdlesalam** @ Macber
+**Mohamed Abdelsalam** @ Macber
 
 - **Phone**: +201150733085
 - **Email**: [mohamedabdelsalamcsai@gmail.com](mailto:mohamedabdelsalamcsai@gmail.com)
